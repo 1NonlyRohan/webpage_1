@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: josefin sans;
+    outline: 0;
+    border: 0;
+    background-color: white;
+}
+
+.head h1 {
+    color: black;
+    font-size: 80px;
+    position: absolute;
+    margin: 80px 50px 60px 465px;
+    font-family: math;
+}
+
+.social-links {
+    margin: 180px 50px 50px 470px;
+    position: absolute;
+}
+
+.social-links .fa-xl {
+    font-size: 1.5em;
+    margin-left: 20px;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 20px 10px 20px 10px;
+}
+
+.social-links .fa-xl:hover {
+    transition: all 0.3s;
+    color: black;
+    background-color: royalblue;
+}
+
+p {
+    color: grey;
+    margin: 30px 10px 30px 0px;
+    font-size: 18px;
+}
+
+::placeholder{
+    color: rgb(71, 71, 71);
+}
+
+.form #text-1 {
+    width: 240px;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    margin: 300px 10px 10px 480px;
+    color: black;
+    background-color: rgb(196, 195, 195);
+}
+
+.form #text-2 {
+    width: 240px;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    margin: 350px 10px 10px 480px;
+    color: black;
+    background-color: rgb(196, 195, 195);
+}
+
+#a1 {
+    position: absolute;
+    margin: 405px 10px 30px 530px;
+    font-family: math;
+    color: rgb(70, 149, 252);
+    font-size: 14px;
+}
+
+#a1:hover{
+    color: blue;
+}
+
+button {
+    width: 125px;
+    margin: 440px 200px 60px 538px;
+    position: absolute;
+    background-color: royalblue;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    background-color: royalblue;
+}
+
+button a:hover{
+    color: rgb(204, 204, 204);
+    transition: 0.3s;
+}
